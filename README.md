@@ -8,7 +8,6 @@ This is a Telegram bot that identifies songs from voice messages using the Shaza
 - **Song Identification**: Identify songs from voice messages.
 - **Lyrics Fetching**: Retrieve lyrics for identified songs.
 - **User-Friendly Interface**: Easy-to-use commands and formatted responses.
-
 ---
 
 ## Commands 🛠️
