@@ -1,0 +1,7 @@
+telebot
+shazamio
+asyncio
+requests
+beautifulsoup4
+python-dotenv
+

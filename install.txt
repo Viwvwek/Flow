@@ -1,0 +1,47 @@
+# How to Install Flow Bot 🚀
+
+Follow these steps to install and set up the Flow bot on your local machine.
+
+## Prerequisites 🛠️
+Ensure you have the following installed:
+- Python 3.7 or later
+- Telegram Bot Token (from @BotFather)
+- Shazam API Key
+
+## Installation Steps 📥
+
+### 1. Clone the Repository
+```sh
+git clone https://github.com/yourrepo/flow-bot.git
+cd flow-bot
+```
+
+### 2. Install Dependencies
+```sh
+pip install -r requirements.txt
+```
+
+### 3. Configure Environment Variables
+Create a `.env` file in the project root directory and add your credentials:
+```sh
+TELEGRAM_BOT_TOKEN=your_telegram_bot_token
+SHAZAM_API_KEY=your_shazam_api_key
+```
+
+### 4. Run the Bot
+```sh
+python bot.py
+```
+
+## Troubleshooting ⚠️
+- If you face dependency issues, ensure you are using a virtual environment:
+  ```sh
+  python -m venv venv
+  source venv/bin/activate  # On macOS/Linux
+  venv\Scripts\activate  # On Windows
+  ```
+- Double-check your API keys in the `.env` file.
+- Make sure your Telegram bot is active and properly configured.
+
+Now your **Flow bot** is ready to use! 🎶
+
