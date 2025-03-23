@@ -1,31 +1,67 @@
-# Song Identifier Telegram Bot 🎶
+# Flow - Your Personal Music Assistant Bot 🎶
 
-This is a Telegram bot that identifies songs from voice messages using the Shazam API and fetches lyrics from azlyrics.com.
+Flow is a Telegram bot that helps you identify songs from voice messages, fetch lyrics, and provide links to listen to your favorite tracks. 
 
----
-
-## Features ✨
-- **Song Identification**: Identify songs from voice messages.
-- **Lyrics Fetching**: Retrieve lyrics for identified songs.
-- **User-Friendly Interface**: Easy-to-use commands and formatted responses.
----
-
-## Commands 🛠️
-- `/start` - Start the bot and get instructions.
-- `/help` - Get help on how to use the bot.
-- `/about` - Learn more about the bot.
-
----
+## Features 🌟
+- **Identify Songs:** Send a voice message, and Flow will recognize the song for you.
+- **Get Song Details:** Retrieve the song title, artist name, and a link to listen to the song.
+- **Fetch Lyrics:** Get lyrics for the identified song.
+- **Search Online:** Provides quick buttons to search for the song on YouTube and Spotify.
 
 ## How to Use 🚀
+1. **Start the Bot**: Click [here](YOUR_BOT_LINK) to open Flow on Telegram.
+2. **Send a Voice Message**: Flow will analyze and identify the song for you.
+3. **Get More Info**: After identification, you can request lyrics or search the song online.
+4. **Use Commands:**
+   - `/start` - Start the bot and see the welcome message.
+   - `/help` - Display the help menu.
+   - `/features` - View the bot's capabilities.
 
-### Prerequisites
-- Python 3.8+
-- A Telegram bot token (get it from [BotFather](https://core.telegram.org/bots#botfather)).
-- A Shazam API key (get it from [RapidAPI](https://rapidapi.com/)).
+## Installation & Setup 🛠️
+To run this bot locally, follow these steps:
 
-### Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/song-identifier-bot.git
-   cd song-identifier-bot
+### Prerequisites:
+- Python 3.7+
+- Telegram Bot Token (from @BotFather)
+- Shazam API Key
+
+### Installation:
+1. Clone this repository:
+   ```sh
+   git clone https://github.com/yourrepo/flow-bot.git
+   cd flow-bot
+   ```
+2. Install dependencies:
+   ```sh
+   pip install -r requirements.txt
+   ```
+3. Create a `.env` file and add your API keys:
+   ```sh
+   TELEGRAM_BOT_TOKEN=your_telegram_bot_token
+   SHAZAM_API_KEY=your_shazam_api_key
+   ```
+4. Run the bot:
+   ```sh
+   python bot.py
+   ```
+
+## Dependencies 📦
+The bot requires the following dependencies:
+```sh
+telebot
+shazamio
+asyncio
+requests
+beautifulsoup4
+dotenv
+```
+
+## Contributing 🤝
+Feel free to fork this repository and contribute by submitting pull requests.
+
+## License 📜
+This project is licensed under the MIT License.
+
+---
+Enjoy using **Flow** and enhance your music experience! 🎵
+
