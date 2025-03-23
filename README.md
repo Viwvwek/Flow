@@ -9,7 +9,7 @@ Flow is a Telegram bot that helps you identify songs from voice messages, fetch 
 - **Search Online:** Provides quick buttons to search for the song on YouTube and Spotify.
 
 ## How to Use 🚀
-1. **Start the Bot**: Click [here](YOUR_BOT_LINK) to open Flow on Telegram.
+1. **Start the Bot**: Click [here](https://t.me/Flow_Songbot) to open Flow on Telegram.
 2. **Send a Voice Message**: Flow will analyze and identify the song for you.
 3. **Get More Info**: After identification, you can request lyrics or search the song online.
 4. **Use Commands:**
